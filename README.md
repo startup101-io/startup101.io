@@ -1,5 +1,5 @@
 
-# Welcome to [Startup101.io](https://startup101.io/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/LpmRaven/startup101.io/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+# Welcome to [Startup101.io](https://startup101.io/) &middot; [![GitHub license](https://img.shields.io/badge/License-BSD--3--Clause-blue)](https://github.com/LpmRaven/startup101.io/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 A community empowering developer-founders to build successful SaaS projects. Our mission is to provide a comprehensive framework, resources, and support for our members to:
 - Build scalable projects with our opinionated monorepo stack
