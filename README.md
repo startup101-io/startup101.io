@@ -1,7 +1,9 @@
 
 # Welcome to [Startup101.io](https://startup101.io/) &middot; [![GitHub license](https://img.shields.io/badge/License-BSD--3--Clause-blue)](https://github.com/LpmRaven/startup101.io/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
-A community empowering developer-founders to build successful SaaS projects. Our mission is to provide a comprehensive framework, resources, and support for our members to:
+**A community empowering developer-founders to build successful SaaS projects.**
+
+Our mission is to provide a comprehensive framework, resources, and support for our members to:
 - Build scalable projects with our opinionated monorepo stack
 - Launch quickly with our proven templates and tools
 - Profit with our guidance on growth and revenue strategies
@@ -9,10 +11,7 @@ A community empowering developer-founders to build successful SaaS projects. Our
 ## What We Offer
 - Open-source (3-clause BSD) code for infrastructure and components
 - Detailed documentation and tutorials
-- [Members-only community](https://startup101.io/) access for additional resources and support
-
-## Join Our Community
-[Visit Startup101.io](https://startup101.io/) to learn more and become a part of our vibrant community of dev founders!
+- Members-only community access for additional resources and support
 
 ## The Stack
 Our opinionated tech stack for building and deploying SaaS projects:
@@ -28,4 +27,18 @@ Our opinionated tech stack for building and deploying SaaS projects:
 - Keep common package contributions framework-agnostic to ensure community-wide compatibility
 
 ### Community-Driven Tech Decisions
-Our tech decisions are transparent and documented in the [tech decisions docs](https://startup101.io/docs/)
+Our tech decisions are transparent and documented in the [tech decisions docs.](https://startup101.io/docs/)
+
+## Join Our Community
+We're a community of founders who believe in helping each other succeed. By combining open-source code with a members-only community, we've created a supportive environment where dedicated startup founders can thrive.
+
+### Unlock Exclusive Benefits
+Join our members-only community to gain access to:
+
+- **Launch Boost:** Get release day assistance to promote your products
+- **Recognition:** Showcase your success on our monthly and all-time MRR leaderboards
+- **Closed Affiliate Network:**  Tap into a network of developers to build cross-promoting systems
+- **Connections:** Connect with like-minded entrepreneurs, potential partners, and investors
+- **Priority Support:** Get timely help from our team and community experts
+
+Be part of a driven and supportive community of entrepreneurs, helping each other succeed and grow. Take the first step and [Visit Startup101.io](https://startup101.io/) to learn more and join our community today!
