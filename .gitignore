@@ -1,3 +1,6 @@
+# Temporarily ignore all files in apps
+apps/*
+
 # plugins
 report.*
 temp

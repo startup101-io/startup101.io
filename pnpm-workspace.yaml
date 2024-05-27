@@ -1,0 +1,7 @@
+packages:
+  # Your websites/applications
+  - "apps/*"
+  # Shared comonents and packages
+  - "packages/*"
+  # exclude packages that are inside test directories
+  - '!**/test/**'

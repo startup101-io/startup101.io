@@ -24,5 +24,8 @@ module.exports = {
         ],
         'comma-dangle': 'off',
         'indent': ['error', 4],
+        "@typescript-eslint/no-unsafe-assignment": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "prefer-arrow-callback": ["error", { "allowNamedFunctions": true }]
     },
 }
