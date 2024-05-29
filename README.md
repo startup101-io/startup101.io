@@ -5,7 +5,7 @@
 
 Our mission is to provide a comprehensive framework, resources, and support for our members to:
 - Build scalable projects with our opinionated monorepo stack
-- Launch quickly with our proven templates and tools
+- Launch quickly with our proven example apps and infrastructure
 - Profit with our guidance on growth and revenue strategies
 
 ## What We Offer
@@ -38,7 +38,7 @@ Join our members-only community to gain access to:
 - **Shippable Apps:** Discover ready-to-deploy example apps designed to help you start generating income quickly
 - **Launch Boost:** Get release day assistance to promote your products
 - **Recognition:** Showcase your success on our monthly and all-time MRR leaderboards
-- **Closed Affiliate Network:**  Tap into a network of developers to build cross-promoting systems
+- **Motivated Network:** Tap into a network of developers to build cross-promoting systems
 - **Connections:** Connect with like-minded entrepreneurs and potential partners
 - **Priority Support:** Get timely help from our team and community experts
 
