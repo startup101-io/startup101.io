@@ -11,6 +11,7 @@ Our mission is to provide a comprehensive framework, resources, and support for 
 ## What We Offer
 - Open-source (3-clause BSD) code for infrastructure and components
 - Detailed documentation and tutorials
+- Example applications
 - Members-only community access for additional resources and support
 
 ## The Stack
@@ -21,6 +22,13 @@ Our opinionated tech stack for building and deploying SaaS projects:
 - Infrastructure: [Pulumi](https://www.pulumi.com/) for infrastructure-as-code and easy deployment
 - Build Tool: [Turbo](https://turbo.build/) for efficient monorepo builds
 - Cloud: [AWS](https://aws.amazon.com/) for scalable and reliable cloud services
+
+### Features
+- Payments: [Stripe](https://stripe.com) integration for secure and efficient payment processing
+- Localization: [Lambda@Edge](https://aws.amazon.com/lambda/edge/) for detection of language and currency
+- Email Campaigns: [ActiveCampaign](https://www.activecampaign.com) integration for targeted and automated email
+- CRM: [Salesforce](https://www.salesforce.com) integration for customer relationship management and sales pipeline optimization
+- User Management: [Auth0](https://auth0.com/) integration for secure and seamless user management
 
 ### Flexibility
 - Feel free to use Next, Remix, Gatsby, or any other framework for your app
@@ -46,3 +54,19 @@ Be part of a driven and supportive community of entrepreneurs, helping each othe
 
 ### Support Policy
 Note that we can only provide support for our community's chosen tech stack. Developer-founders using other tech stacks are welcome in our community, but we cannot offer tech support.
+
+## Example Apps
+Kickstart your project with our ready-to-deploy example apps. These examples provide a solid foundation, saving you time and effort, and allowing you to focus on growth and revenue strategies.
+
+### Open-Source Example Apps
+- One page high-conversion sales app
+
+### Members-Only Example Apps
+- Listings and feature comparison app
+- Price comparison app*¹
+- A scalable online course app*¹
+
+\*¹ *These apps are still in development and are not in a operational state*
+
+Note: The git repositories for the members-only example apps are exclusively available to registered members and are protected by copyright as proprietary software, all rights reserved.
+
