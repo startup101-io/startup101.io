@@ -1,16 +1,6 @@
-# This is the .gitmodules file for the main repository. It contains the submodules that are used in the project.
+# This is the .gitmodules file for the startup101.io repository. It contains the submodules that are used in the project.
 # The submodules are your apps, and they are stored in separate git repositories. This file tells git where to find them.
 # All of your submodules should look like this example:
 # [submodule "apps/appname.com"]
 # 	path = apps/appname.com
 # 	url = git@github.com:username/appname.com.git
-
-[submodule "apps/entrepreneurlist.io"]
-	path = apps/entrepreneurlist.io
-	url = git@github.com:LpmRaven/entrepreneurlist.io.git
-[submodule "apps/liamraven.com"]
-	path = apps/liamraven.com
-	url = git@github.com:LpmRaven/liamraven.com.git
-[submodule "apps/whichstack.dev"]
-	path = apps/whichstack.dev
-	url = git@github.com:LpmRaven/whichstack.dev.git
