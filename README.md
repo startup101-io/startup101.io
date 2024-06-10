@@ -43,7 +43,7 @@ We're a community of founders who believe in helping each other succeed. By comb
 ### Unlock Exclusive Benefits
 Join our members-only community to gain access to:
 
-- **Shippable Apps:** Discover ready-to-deploy example apps designed to help you start generating income quickly
+- **Shippable Apps:** Discover ready-to-deploy apps
 - **Launch Boost:** Get release day assistance to promote your products
 - **Recognition:** Showcase your success on our monthly and all-time MRR leaderboards
 - **Motivated Network:** Tap into a network of developers to build cross-promoting systems
@@ -53,17 +53,19 @@ Join our members-only community to gain access to:
 Be part of a driven and supportive community of entrepreneurs, helping each other succeed and grow. Take the first step and [Visit Startup101.io](https://startup101.io/) to learn more and join our community today!
 
 ### Support Policy
-Note that we can only provide support for our community's chosen tech stack. Developer-founders using other tech stacks are welcome in our community, but we cannot offer tech support.
+We can only provide support for our community's chosen tech stack. Developer-founders using other tech stacks are welcome in our community, but we cannot offer tech support.
 
 ## Example Apps
 Kickstart your project with our ready-to-deploy example apps. These examples provide a solid foundation, saving you time and effort, and allowing you to focus on growth and revenue strategies.
 
 ### Open-Source Example Apps
-- One page high-conversion sales app
+- Idea validation app*¹
+- One page high-conversion sales app - [Startup101.io](https://startup101.io/)
+
 
 ### Members-Only Example Apps
-- Listings and feature comparison app
-- Price comparison app*¹
+- Listings and feature comparison app - [EntrepreneurList.io](https://entrepreneurlist.io)
+- Price comparison app*¹ 
 - A scalable online course app*¹
 
 \*¹ *These apps are still in development and are not in a operational state*
