@@ -1,13 +1,3 @@
-[submodule "apps/entrepreneurlist.io"]
-	path = apps/entrepreneurlist.io
-	url = git@github.com:LpmRaven/entrepreneurlist.io.git
-[submodule "apps/liamraven.com"]
-	path = apps/liamraven.com
-	url = git@github.com:LpmRaven/liamraven.com.git
-[submodule "apps/whichstack.dev"]
-	path = apps/whichstack.dev
-	url = git@github.com:LpmRaven/whichstack.dev.git
-
 ## Getting started
 
 The best place to start is [Startup101.io](https://startup101.io/) or 📖 [our docs](https://startup101.io/docs/).
