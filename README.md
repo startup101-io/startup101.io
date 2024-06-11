@@ -1,5 +1,7 @@
 
-# Welcome to [Startup101.io](https://startup101.io/) &middot; [![GitHub license](https://img.shields.io/badge/License-BSD--3--Clause-blue)](https://github.com/LpmRaven/startup101.io/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+# Welcome to [Startup101.io](https://startup101.io/) &middot; [![GitHub license](https://img.shields.io/badge/License-BSD--3--Clause-blue?style=for-the-badge&labelColor=000)](https://github.com/LpmRaven/startup101.io/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&labelColor=000)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) [![Join the community](https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&labelColor=000000&logoWidth=20&logoColor=white)](https://startup101.io/)
+
+![Startup101 promo image](https://github.com/LpmRaven/startup101.io/blob/master/docs/static/img/startup101_github_1.png?raw=true)
 
 **A community empowering developer-founders to build successful SaaS projects.**
 
@@ -48,7 +50,6 @@ Join our members-only community to gain access to:
 - **Recognition:** Showcase your success on our monthly and all-time MRR leaderboards
 - **Motivated Network:** Tap into a network of developers to build cross-promoting systems
 - **Connections:** Connect with like-minded entrepreneurs and potential partners
-- **Priority Support:** Get timely help from our team and community experts
 
 Be part of a driven and supportive community of entrepreneurs, helping each other succeed and grow. Take the first step and [Visit Startup101.io](https://startup101.io/) to learn more and join our community today!
 

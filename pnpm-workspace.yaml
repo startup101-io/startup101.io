@@ -5,3 +5,9 @@ packages:
   - "packages/*"
   # exclude packages that are inside test directories
   - '!**/test/**'
+  # docs
+  - "docs"
+  # examples
+  - "examples/*"
+  # examples for members
+  - "examples-members/*"

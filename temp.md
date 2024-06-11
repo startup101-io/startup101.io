@@ -30,6 +30,11 @@ I suggest that you give your repo the same url as your app. For example, if I wa
 
 ### Add Submodule to Apps
 
+Temporarily remove the apps directory from .gitignore. 
+```bash
+# apps/*
+```
+
 We want to put your app into the apps folder, so lets go there.
 
 ```bash
