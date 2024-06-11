@@ -1,6 +1,14 @@
 # Temporarily ignore all files in apps
 apps/*
-!apps/example*
+
+# Except for the example app
+!examples/*
+
+# Except for the example members app
+!examples-members/*
+
+# turbo
+.turbo/*
 
 # plugins
 report.*
