@@ -7,7 +7,7 @@ const config: Config = {
   tagline: '',
   favicon: 'img/favicon.ico',
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://startup101.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -26,12 +26,9 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: require.resolve('./sidebars.js'),
         },
+        blog: false, // Optional: disable the blog plugin
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -41,7 +38,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Startup101 Docs',
       logo: {
@@ -50,7 +47,7 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/LpmRaven/startup101.io',
           label: 'GitHub',
           position: 'right',
         },
@@ -63,8 +60,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Welcome',
+              to: '/docs/welcome',
+            },
+            {
+              label: 'Getting Started',
+              to: '/docs/getting-started',
             },
           ],
         },
@@ -72,16 +73,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Startup101.io',
+              href: 'https://startup101.io/',
             },
           ],
         },
@@ -89,17 +82,13 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/LpmRaven/startup101.io',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Startup101.io`,
     },
     prism: {
       theme: prismThemes.github,
