@@ -22,7 +22,7 @@ This thing
 
 We need to setup a new Github repo for your app. This will allow you to keep your app private and prevent copy-cat sites.
 
-In Github, create a new repository. Make it private.
+In Github, create a new repository. Make it **private**.
 
 :::tip My EntrepreneurList App
 I suggest that you give your repo the same url as your app. For example, if I was creating the 'EntrepreneurList' app, my repo would be named `entrepreneurlist.io`.
