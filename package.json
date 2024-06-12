@@ -1,6 +1,6 @@
 {
   "name": "startup101.io",
-  "author": "Liam Raven (LpmRaven)",
+  "author": "startup101.io <startup101-io>",
   "description": "Monorepo for amazing SaaS projects",
   "private": true,
   "scripts": {

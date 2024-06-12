@@ -47,7 +47,7 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/LpmRaven/startup101.io',
+          href: 'https://github.com/startup101-io/startup101.io',
           label: 'GitHub',
           position: 'right',
         },
@@ -83,7 +83,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/LpmRaven/startup101.io',
+              href: 'https://github.com/startup101-io/startup101.io',
             },
           ],
         },

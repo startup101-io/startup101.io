@@ -1,9 +1,9 @@
 
 # Welcome to [Startup101.io](https://startup101.io/)
 
- [![GitHub license](https://img.shields.io/badge/License-BSD--3--Clause-blue?style=for-the-badge&labelColor=000)](https://github.com/LpmRaven/startup101.io/blob/master/LICENSE.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&labelColor=000)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) [![Join the community](https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&labelColor=000000&logoWidth=20&logoColor=white)](https://startup101.io/)
+ [![GitHub license](https://img.shields.io/badge/License-BSD--3--Clause-blue?style=for-the-badge&labelColor=000)](https://github.com/startup101-io/startup101.io/blob/master/LICENSE.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&labelColor=000)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) [![Join the community](https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&labelColor=000000&logoWidth=20&logoColor=white)](https://startup101.io/)
 
-![Startup101 promo image](https://github.com/LpmRaven/startup101.io/blob/master/docs/static/img/startup101_github_1.png?raw=true)
+![Startup101 promo image](https://github.com/startup101-io/startup101.io/blob/master/docs/static/img/startup101_github_1.png?raw=true)
 
 **A community empowering developer-founders to build successful SaaS projects.**
 

@@ -24,7 +24,7 @@ I suggest that you call it startup101.io just for simplicity.
 
 ### Create a private folk of startup101.io
 ```shell
-git clone --bare https://github.com/LpmRaven/startup101.io.git
+git clone --bare https://github.com/startup101-io/startup101.io.git
 cd startup101.io.git
 ```
 
@@ -67,7 +67,7 @@ First, make sure you have committed all of your work. Then:
 
 ```shell
 cd startup101.io
-git remote add public https://github.com/LpmRaven/startup101.io.git
+git remote add public https://github.com/startup101-io/startup101.io.git
 git pull public master # Creates a merge commit
 git push origin master
 ```
@@ -79,7 +79,7 @@ You will need to comment out `apps/*` in .gitignore again.
 :::
 
 ## Contribute to startup101.io
-Use the GitHub UI to create a fork of the [public startup101 repo](https://github.com/LpmRaven/startup101.io) (the small "Fork" button at the top right of the public startup101 repo page). Then:
+Use the GitHub UI to create a fork of the [public startup101 repo](https://github.com/startup101-io/startup101.io) (the small "Fork" button at the top right of the public startup101 repo page). Then:
 
 ```shell
 git clone https://github.com/yourname/the-fork.git
@@ -135,7 +135,7 @@ git submodule add [URL of project to add in GitHub] apps/[name of directory you 
 Heres what my full git submodules command looks like:
 
 ```shell
-git submodule add git@github.com:LpmRaven/entrepreneurlist.io.git apps/entrepreneurlist.io
+git submodule add git@github.com:startup101-io/entrepreneurlist.io.git apps/entrepreneurlist.io
 ```
 :::
 
