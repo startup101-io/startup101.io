@@ -1,0 +1,9 @@
+{
+  "label": "Infra",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "infra",
+    "slug": "/infra/"
+  }
+}
