@@ -1,13 +1,13 @@
 packages:
-  # Your websites/applications
+  # Your apps
   - "apps/*"
   # Shared comonents and packages
   - "packages/*"
   # exclude packages that are inside test directories
-  - '!**/test/**'
-  # docs
+  - "!**/test/**"
+  # Docs
   - "docs"
   # examples
-  - "examples/*"
+  - "!examples/*"
   # examples for members
-  - "examples-members/*"
+  - "!examples-members/*"

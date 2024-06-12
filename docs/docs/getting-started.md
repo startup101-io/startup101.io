@@ -6,30 +6,99 @@ slug: /getting-started/
 # Getting Started
 The majority of our codebase is open-source, although some additional resources and code is reserved for members of our community. We welcome PRs; improvements benefit us all.
 
-Startup101.io is a monorepo, we share a packages and infrastructure code. We recommend you build your apps inside the monorepo to make the most of our setup, although your app's codebase will be private and stored in its own repo.
+Startup101.io is a monorepo, we share packages and infrastructure code. We recommend you build your apps inside the monorepo to make the most of our setup, although your app's codebase will be private and stored in its own repo.
 
-## Clone startup101.io repo
-Inside your workspace directory:
+## New Github repo
+
+We need to setup a new Github repo for your private copy of startup101.io. This will allow you to keep your apps private and prevent copy-cat sites.
+
+In Github, create a new repository. Make it **private**.
+
+:::tip Tips
+I suggest that you call it startup101.io just for simplicity.
+:::
+
+![Github create new repo](../static/img/github_new_repo.png)
+
+## Duplicate startup101.io
+
+### Create a private folk of startup101.io
 ```shell
-git clone git@github.com:LpmRaven/startup101.io.git
+git clone --bare https://github.com/LpmRaven/startup101.io.git
+cd startup101.io.git
 ```
+
+### Push your startup101.io repo to github
+
+:::info Required
+You need to change `yourname` to your github username in these commands.
+:::
+
+```shell
+git push --mirror https://github.com/yourname/startup101.io.git
+cd ..
+rm -rf startup101.io.git
+```
+
+
+## Clone your private repo
+
+```shell
+git clone https://github.com/yourname/startup101.io.git
+cd startup101.io
+
+**create your apps**
+
+git commit
+git push origin master
+```
+
+### Edit .gitignore
+To allow git to access the apps directory we need to edit the .gitignore file in the root of startup101.io.
+Remove the apps directory from .gitignore. You can just comment it out.
+```shell title=".gitignore"
+# apps/*
+```
+
+## Pull new updates from startup101.io
+To make the most of community contributions, it is wise to pull new updates from the public startup101 repo.
+
+First, make sure you have committed all of your work. Then:
+
+```shell
+cd startup101.io
+git remote add public https://github.com/LpmRaven/startup101.io.git
+git pull public master # Creates a merge commit
+git push origin master
+```
+
+Now, you have updated startup101.io.
+
+:::note
+You will need to comment out `apps/*` in .gitignore again.
+:::
+
+## Contribute to startup101.io
+Use the GitHub UI to create a fork of the [public startup101 repo](https://github.com/LpmRaven/startup101.io) (the small "Fork" button at the top right of the public startup101 repo page). Then:
+
+```shell
+git clone https://github.com/yourname/the-fork.git
+cd the-fork
+git remote add private_repo_yourname https://github.com/yourname/startup101.io.git
+git checkout -b pull_request_yourname
+git pull private_repo_yourname master
+git push origin pull_request_yourname
+```
+
+For more help on this, see the [Github Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
+
+Once project owners review your pull request, they can merge it.
 
 <!-- :::tip My tip
 This thing
 ::: -->
 
-## New Github repo
-
-We need to setup a new Github repo for your app. This will allow you to keep your app private and prevent copy-cat sites.
-
-In Github, create a new repository. Make it **private**.
-
-:::tip My EntrepreneurList App
-I suggest that you give your repo the same url as your app. For example, if I was creating the 'EntrepreneurList' app, my repo would be named `entrepreneurlist.io`.
-:::
-
-![Github create new repo](../static/img/github_new_repo.png)
-
+<!-- 
 ## Git Submodules
 
 Our monorepo uses [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to keep your app code seperate from the community shared code.
@@ -79,7 +148,7 @@ Open it up and you should see something like:
 [submodule "apps/appname.com"]
 	path = apps/appname.com
 	url = git@github.com:username/appname.com.git
-```
+``` -->
 
 <!-- ### Add your app to a new Github repo
 
